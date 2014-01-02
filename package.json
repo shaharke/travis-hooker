@@ -1,0 +1,31 @@
+{
+  "name": "travis-hooker",
+  "version": "0.0.1",
+  "description": "Turn Travis CI notifications into actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shaharke/travis-hooker.git"
+  },
+  "keywords": [
+    "travis",
+    "ci",
+    "hook",
+    "hooks"
+  ],
+  "author": "Shahar Kedar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaharke/travis-hooker/issues"
+  },
+  "dependencies": {
+    "express": "~3.4.7",
+    "underscore": "~1.5.2",
+    "q": "~0.9.7",
+    "consolidate": "~0.10.0",
+    "jade": "~1.0.2"
+  }
+}
