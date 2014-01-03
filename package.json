@@ -4,7 +4,7 @@
   "description": "Turn Travis CI notifications into actions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/** --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,9 @@
     "q": "~0.9.7",
     "consolidate": "~0.10.0",
     "jade": "~1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "chai": "~1.8.1"
   }
 }
