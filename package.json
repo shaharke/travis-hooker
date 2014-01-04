@@ -2,7 +2,7 @@
   "name": "travis-hooker",
   "version": "0.0.1",
   "description": "Turn Travis CI notifications into actions",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "mocha test/** --reporter spec"
   },
