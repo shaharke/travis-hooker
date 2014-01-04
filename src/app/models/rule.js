@@ -23,7 +23,7 @@ var RuleSchema = new Schema({
     default: '',
     trim: true
   },
-  filter: {
+  conditions: {
     type: Schema.Types.Mixed
   },
   action: {

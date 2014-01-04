@@ -27,7 +27,8 @@
     "q": "~0.9.7",
     "consolidate": "~0.10.0",
     "jade": "~1.0.2",
-    "mongoose": "~3.8.3"
+    "mongoose": "~3.8.3",
+    "traverse": "~0.6.6"
   },
   "devDependencies": {
     "mocha": "~1.16.2",

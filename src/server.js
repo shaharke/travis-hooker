@@ -37,7 +37,7 @@ var app = express();
 require('./config/express')(app);
 
 //Bootstrap routes
-require('./config/routes')(app);
+require('./config/routes')(app, config);
 
 //Start the app by listening on <port>
 var port = process.env.PORT || config.port;
