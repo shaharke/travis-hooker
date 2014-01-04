@@ -3,4 +3,4 @@ node_js:
   - "0.10"
 notifications:
   webhooks:
-    - http://1ab369d8.ngrok.com/travis/hook
+    - http://6ecf297.ngrok.com/travis/hook

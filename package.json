@@ -26,10 +26,13 @@
     "underscore": "~1.5.2",
     "q": "~0.9.7",
     "consolidate": "~0.10.0",
-    "jade": "~1.0.2"
+    "jade": "~1.0.2",
+    "mongoose": "~3.8.3"
   },
   "devDependencies": {
     "mocha": "~1.16.2",
-    "chai": "~1.8.1"
+    "chai": "~1.8.1",
+    "request": "~2.30.0",
+    "chai-http": "~0.4.0"
   }
 }
